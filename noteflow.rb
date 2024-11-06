@@ -99,6 +99,11 @@ class Noteflow < Formula
     sha256 "223217c3d4f82c3ac5e29032b3f1c2eb0fb591b72161f86d93f5719079dae93e"
   end
 
+  resource "idna" do
+    url "https://files.pythonhosted.org/packages/source/i/idna/idna-3.4.tar.gz"
+    sha256 "814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4"
+  end
+
   def install
     virtualenv_install_with_resources
   end
