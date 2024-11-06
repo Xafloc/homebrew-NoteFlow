@@ -45,8 +45,8 @@ class Noteflow < Formula
   end
 
   resource "typing_extensions" do
-    url "https://files.pythonhosted.org/packages/source/t/typing_extensions/typing_extensions-4.7.1.tar.gz"
-    sha256 "b75ddc264f0ba5615db7ba217daeb99701ad295353c45f9e95963337ceeeffb2"
+    url "https://files.pythonhosted.org/packages/source/t/typing_extensions/typing_extensions-4.12.2.tar.gz"
+    sha256 "1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"
   end
 
   resource "aiofiles" do
