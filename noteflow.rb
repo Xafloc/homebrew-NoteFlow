@@ -74,6 +74,16 @@ class Noteflow < Formula
     sha256 "81711dae205696f7b53ab1a016d681dea50406c5dbc44fa621cfbc1cbad3a26b"
   end
 
+  resource "anyio" do
+    url "https://files.pythonhosted.org/packages/source/a/anyio/anyio-3.7.0.tar.gz"
+    sha256 "275d9973793619a5374e1c89a4f4ad3f4b0a5510a2b5b939444bee8f4c4d37ce"
+  end
+
+  resource "sniffio" do
+    url "https://files.pythonhosted.org/packages/source/s/sniffio/sniffio-1.3.0.tar.gz"
+    sha256 "e60305c5e5d314f5389259b7f22aaa33d8f7dee49763119234af3755c55b9101"
+  end
+
   def install
     virtualenv_install_with_resources
   end
