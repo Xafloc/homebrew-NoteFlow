@@ -10,47 +10,37 @@ class Noteflow < Formula
 
   resource "fastapi" do
     url "https://files.pythonhosted.org/packages/source/f/fastapi/fastapi-0.104.1.tar.gz"
-    sha256 "your_fastapi_sha256"
+    sha256 "e5e4540a7c5e1dcfbbcf5b903c234feddcdcd881f191977a1c5dfd917487e7ae"
   end
 
   resource "uvicorn" do
     url "https://files.pythonhosted.org/packages/source/u/uvicorn/uvicorn-0.24.0.tar.gz"
-    sha256 "your_uvicorn_sha256"
+    sha256 "368d5d81520a51be96431845169c225d771c9dd22a58613e1a181e6c4512ac33"
   end
 
   resource "markdown-it-py" do
     url "https://files.pythonhosted.org/packages/source/m/markdown-it-py/markdown-it-py-3.0.0.tar.gz"
-    sha256 "your_markdown_it_py_sha256"
-  end
-
-  resource "python-multipart" do
-    url "https://files.pythonhosted.org/packages/source/p/python-multipart/python-multipart-0.0.6.tar.gz"
-    sha256 "your_python_multipart_sha256"
+    sha256 "e3f60a94fa066dc52ec76661e37c851cb232d92f9886b15cb560aaada2df8feb"
   end
 
   resource "pydantic" do
     url "https://files.pythonhosted.org/packages/source/p/pydantic/pydantic-2.4.2.tar.gz"
-    sha256 "your_pydantic_sha256"
+    sha256 "94f336138093a5d7f426aac732dcfe7ab4eb4da243c88f891d65deb4a2556ee7"
   end
 
   resource "aiofiles" do
     url "https://files.pythonhosted.org/packages/source/a/aiofiles/aiofiles-23.2.1.tar.gz"
-    sha256 "your_aiofiles_sha256"
-  end
-
-  resource "jinja2" do
-    url "https://files.pythonhosted.org/packages/source/j/jinja2/jinja2-3.1.2.tar.gz"
-    sha256 "your_jinja2_sha256"
+    sha256 "84ec2218d8419404abcb9f0c02df3f34c6e0a68ed41072acfb1cef5cbc29051a"
   end
 
   resource "requests" do
     url "https://files.pythonhosted.org/packages/source/r/requests/requests-2.31.0.tar.gz"
-    sha256 "your_requests_sha256"
+    sha256 "942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"
   end
 
   resource "beautifulsoup4" do
     url "https://files.pythonhosted.org/packages/source/b/beautifulsoup4/beautifulsoup4-4.12.0.tar.gz"
-    sha256 "your_beautifulsoup4_sha256"
+    sha256 "c5fceeaec29d09c84970e47c65f2f0efe57872f7cff494c9691a26ec0ff13234"
   end
 
   def install
