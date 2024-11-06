@@ -3,3 +3,6 @@
 
 # Ignore notes.md
 notes.md
+
+# Ignore .gitignore
+.gitignore
