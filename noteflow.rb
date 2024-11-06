@@ -109,6 +109,11 @@ class Noteflow < Formula
     sha256 "539cc1d13202e33ca466e88b2807e29f4c13049d6d87031a3c110744495cb082"
   end
 
+  resource "h11" do
+    url "https://files.pythonhosted.org/packages/source/h/h11/h11-0.14.0.tar.gz"
+    sha256 "8f19fbbe99e72420ff35c00b27a34cb9937e902a8b810e2c88300c6f0a3b699d"
+  end
+
   def install
     virtualenv_install_with_resources
   end
