@@ -13,6 +13,11 @@ class Noteflow < Formula
     sha256 "e5e4540a7c5e1dcfbbcf5b903c234feddcdcd881f191977a1c5dfd917487e7ae"
   end
 
+  resource "starlette" do
+    url "https://files.pythonhosted.org/packages/source/s/starlette/starlette-0.27.0.tar.gz"
+    sha256 "6a6b0d042acb8d469a01eba54e9cda6cbd24ac602c4cd016723117d6a7e73b75"
+  end
+
   resource "uvicorn" do
     url "https://files.pythonhosted.org/packages/source/u/uvicorn/uvicorn-0.24.0.tar.gz"
     sha256 "368d5d81520a51be96431845169c225d771c9dd22a58613e1a181e6c4512ac33"
