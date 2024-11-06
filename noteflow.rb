@@ -114,6 +114,11 @@ class Noteflow < Formula
     sha256 "8f19fbbe99e72420ff35c00b27a34cb9937e902a8b810e2c88300c6f0a3b699d"
   end
 
+  resource "soupsieve" do
+    url "https://files.pythonhosted.org/packages/source/s/soupsieve/soupsieve-2.4.1.tar.gz"
+    sha256 "89d12b2d5dfcd2c9e8c22326da9d9aa9cb3dfab0a83a024f05704076ee8d35ea"
+  end
+
   def install
     virtualenv_install_with_resources
   end
