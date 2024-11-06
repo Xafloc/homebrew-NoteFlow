@@ -104,6 +104,11 @@ class Noteflow < Formula
     sha256 "814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4"
   end
 
+  resource "certifi" do
+    url "https://files.pythonhosted.org/packages/source/c/certifi/certifi-2023.7.22.tar.gz"
+    sha256 "539cc1d13202e33ca466e88b2807e29f4c13049d6d87031a3c110744495cb082"
+  end
+
   def install
     virtualenv_install_with_resources
   end
