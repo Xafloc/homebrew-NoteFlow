@@ -69,6 +69,11 @@ class Noteflow < Formula
     sha256 "c5fceeaec29d09c84970e47c65f2f0efe57872f7cff494c9691a26ec0ff13234"
   end
 
+  resource "python-multipart" do
+    url "https://github.com/Kludex/python-multipart/archive/refs/tags/0.0.17.tar.gz"
+    sha256 "81711dae205696f7b53ab1a016d681dea50406c5dbc44fa621cfbc1cbad3a26b"
+  end
+
   def install
     virtualenv_install_with_resources
   end
