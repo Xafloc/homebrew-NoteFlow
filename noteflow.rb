@@ -7,6 +7,7 @@ class Noteflow < Formula
   sha256 "20bc3a4dc8c50453861e62b6192c5ff99cef1c676741ba7331494c768b876e23"
 
   depends_on "python@3.9"
+  depends_on "rust"
 
   resource "fastapi" do
     url "https://files.pythonhosted.org/packages/source/f/fastapi/fastapi-0.104.1.tar.gz"
