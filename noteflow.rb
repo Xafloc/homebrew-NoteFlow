@@ -33,6 +33,11 @@ class Noteflow < Formula
     sha256 "94f336138093a5d7f426aac732dcfe7ab4eb4da243c88f891d65deb4a2556ee7"
   end
 
+  resource "pydantic_core" do
+    url "https://files.pythonhosted.org/packages/98/85/0ac4f8fc632fa1bb3f473e4dfb1cd520ede11179f76a028edfd2ca989ed4/pydantic_core-2.26.0.tar.gz"
+    sha256 "4578d4914bdbbd18963b4c611fa39d912d0dbeeffef8211fb546e45176a72d1d"
+  end
+
   resource "aiofiles" do
     url "https://files.pythonhosted.org/packages/source/a/aiofiles/aiofiles-23.2.1.tar.gz"
     sha256 "84ec2218d8419404abcb9f0c02df3f34c6e0a68ed41072acfb1cef5cbc29051a"
