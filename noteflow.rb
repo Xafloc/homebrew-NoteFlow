@@ -34,8 +34,8 @@ class Noteflow < Formula
   end
 
   resource "pydantic_core" do
-    url "https://files.pythonhosted.org/packages/98/85/0ac4f8fc632fa1bb3f473e4dfb1cd520ede11179f76a028edfd2ca989ed4/pydantic_core-2.26.0.tar.gz"
-    sha256 "4578d4914bdbbd18963b4c611fa39d912d0dbeeffef8211fb546e45176a72d1d"
+    url "https://github.com/pydantic/pydantic-core/archive/refs/tags/v2.26.0.tar.gz"
+    sha256 "0543d3db86c399855bb145c6934c59d8db6202aa9e352fca4c59e741746769a9"
   end
 
   resource "aiofiles" do
