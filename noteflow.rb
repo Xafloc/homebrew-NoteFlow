@@ -89,6 +89,11 @@ class Noteflow < Formula
     sha256 "7682dc8afb30297001674575ea00d1814d808d6a36af415a82bd481d37ba7b8e"
   end
 
+  resource "urllib3" do
+    url "https://files.pythonhosted.org/packages/source/u/urllib3/urllib3-1.26.16.tar.gz"
+    sha256 "8f135f6502756bde6b2a9b28989df5fbe87c9970cecaa69041edcce7f0589b14"
+  end
+
   def install
     virtualenv_install_with_resources
   end
