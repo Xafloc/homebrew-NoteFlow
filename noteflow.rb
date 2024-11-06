@@ -94,6 +94,11 @@ class Noteflow < Formula
     sha256 "8f135f6502756bde6b2a9b28989df5fbe87c9970cecaa69041edcce7f0589b14"
   end
 
+  resource "charset_normalizer" do
+    url "https://files.pythonhosted.org/packages/source/c/charset_normalizer/charset_normalizer-3.4.0.tar.gz"
+    sha256 "223217c3d4f82c3ac5e29032b3f1c2eb0fb591b72161f86d93f5719079dae93e"
+  end
+
   def install
     virtualenv_install_with_resources
   end
