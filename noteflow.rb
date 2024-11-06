@@ -84,6 +84,11 @@ class Noteflow < Formula
     sha256 "e60305c5e5d314f5389259b7f22aaa33d8f7dee49763119234af3755c55b9101"
   end
 
+  resource "click" do
+    url "https://files.pythonhosted.org/packages/source/c/click/click-8.1.3.tar.gz"
+    sha256 "7682dc8afb30297001674575ea00d1814d808d6a36af415a82bd481d37ba7b8e"
+  end
+
   def install
     virtualenv_install_with_resources
   end
