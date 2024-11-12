@@ -3,8 +3,8 @@ class Noteflow < Formula
 
   desc "NoteFlow is a lightweight, Markdown-based note-taking application with task management capabilities."
   homepage "https://github.com/Xafloc/NoteFlow"
-  url "https://github.com/Xafloc/NoteFlow/archive/refs/tags/v0.1.4.tar.gz"
-  sha256 "6be3d049da4f58bcfe9596c30b43e5291c5bfac3f68a392b57b135f68908769b"
+  url "https://github.com/Xafloc/NoteFlow/archive/refs/tags/v0.1.5.tar.gz"
+  sha256 "baf6276029d7063458aeaf907feb28863d1d4bb0dc3bfd72e683fb4b2bddd04e"
 
   depends_on "python@3.9"
   depends_on "rust"
@@ -117,6 +117,11 @@ class Noteflow < Formula
   resource "soupsieve" do
     url "https://files.pythonhosted.org/packages/source/s/soupsieve/soupsieve-2.4.1.tar.gz"
     sha256 "89d12b2d5dfcd2c9e8c22326da9d9aa9cb3dfab0a83a024f05704076ee8d35ea"
+  end
+
+  resource "platformdirs" do
+    url "https://files.pythonhosted.org/packages/source/p/platformdirs/platformdirs-3.10.0.tar.gz"
+    sha256 "b45696dab2d7cc691a3226759c0d3b00c47c8b6e293d96f6436f733303f77f6d"
   end
 
   def install
