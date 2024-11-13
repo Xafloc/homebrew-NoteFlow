@@ -3,8 +3,8 @@ class Noteflow < Formula
 
   desc "NoteFlow is a lightweight, Markdown-based note-taking application with task management capabilities."
   homepage "https://github.com/Xafloc/NoteFlow"
-  url "https://github.com/Xafloc/NoteFlow/archive/refs/tags/v0.1.6.tar.gz"
-  sha256 "fba4daf87f8d890bfc11f1be918debed5b0e8192867915aba699edc47d277b8a"
+  url "https://github.com/Xafloc/NoteFlow/archive/refs/tags/v0.1.7.tar.gz"
+  sha256 "b812698af66808ca02ba9d0a40613c457bd93c044639da4d73ea53ba52aae818"
 
   depends_on "python@3.9"
   depends_on "rust"
