@@ -3,8 +3,8 @@ class Noteflow < Formula
 
   desc "NoteFlow is a lightweight, Markdown-based note-taking application with task management capabilities."
   homepage "https://github.com/Xafloc/NoteFlow"
-  url "https://github.com/Xafloc/NoteFlow/archive/refs/tags/v0.1.7.tar.gz"
-  sha256 "b812698af66808ca02ba9d0a40613c457bd93c044639da4d73ea53ba52aae818"
+  url "https://github.com/Xafloc/NoteFlow/archive/refs/tags/v0.1.8.tar.gz"
+  sha256 "bb26030274d09108bc334842069d50ce5650d276e25889f6f89c15e3c71aabf3"
 
   depends_on "python@3.9"
   depends_on "rust"
@@ -122,6 +122,11 @@ class Noteflow < Formula
   resource "platformdirs" do
     url "https://files.pythonhosted.org/packages/source/p/platformdirs/platformdirs-3.10.0.tar.gz"
     sha256 "b45696dab2d7cc691a3226759c0d3b00c47c8b6e293d96f6436f733303f77f6d"
+  end
+
+  resource "psutil" do
+    url "https://files.pythonhosted.org/packages/source/p/psutil/psutil-5.9.5.tar.gz"
+    sha256 "5410638e4df39c54d957fc51ce03048acd8e6d60abc0f5107af51e5fb566eb3c"
   end
 
   def install
