@@ -3,8 +3,8 @@ class Noteflow < Formula
 
   desc "NoteFlow is a lightweight, Markdown-based note-taking application with task management capabilities."
   homepage "https://github.com/Xafloc/NoteFlow"
-  url "https://github.com/Xafloc/NoteFlow/archive/refs/tags/v0.2.3.tar.gz"
-  sha256 "a513055cc4e298e7675c1e76c9739fa68ee12c0b8ba57af2465ff5c23e9ad9a9"
+  url "https://github.com/Xafloc/NoteFlow/archive/refs/tags/v0.2.4.tar.gz"
+  sha256 "5c4eda3228ef2901dcdf22e446b2a02f57b5d77f40fea4673c43d7b4f53dda11"
 
   depends_on "python@3.9"
   depends_on "rust"
@@ -27,6 +27,11 @@ class Noteflow < Formula
   resource "markdown-it-py" do
     url "https://files.pythonhosted.org/packages/source/m/markdown-it-py/markdown-it-py-3.0.0.tar.gz"
     sha256 "e3f60a94fa066dc52ec76661e37c851cb232d92f9886b15cb560aaada2df8feb"
+  end
+
+  resource "mdit-py-plugins" do
+    url "https://files.pythonhosted.org/packages/source/m/mdit-py-plugins/mdit-py-plugins-0.3.5.tar.gz"
+    sha256 "eee0adc7195e5827e17e02d2a258a2ba159944a0748f59c5099a4a27f78fcf6a"
   end
 
   resource "mdurl" do
