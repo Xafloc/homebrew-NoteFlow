@@ -3,8 +3,8 @@ class Noteflow < Formula
 
   desc "NoteFlow is a lightweight, Markdown-based note-taking application with task management capabilities."
   homepage "https://github.com/Xafloc/NoteFlow"
-  url "https://github.com/Xafloc/NoteFlow/archive/refs/tags/v0.2.4.tar.gz"
-  sha256 "5c4eda3228ef2901dcdf22e446b2a02f57b5d77f40fea4673c43d7b4f53dda11"
+  url "https://github.com/Xafloc/NoteFlow/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "a6f941131b41a068277e12fd5dfe752dcc3b4065bc8ab97a27516f891d3b61ee"
 
   depends_on "python@3.9"
   depends_on "rust"
@@ -57,11 +57,6 @@ class Noteflow < Formula
   resource "typing_extensions" do
     url "https://files.pythonhosted.org/packages/source/t/typing_extensions/typing_extensions-4.12.2.tar.gz"
     sha256 "1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"
-  end
-
-  resource "aiofiles" do
-    url "https://files.pythonhosted.org/packages/source/a/aiofiles/aiofiles-23.2.1.tar.gz"
-    sha256 "84ec2218d8419404abcb9f0c02df3f34c6e0a68ed41072acfb1cef5cbc29051a"
   end
 
   resource "requests" do
