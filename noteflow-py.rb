@@ -6,7 +6,7 @@ class NoteflowPy < Formula
   url "https://github.com/Xafloc/NoteFlow/archive/refs/tags/v0.4.0.tar.gz"
   sha256 "4694e589dc5c7b21abc7f0390de6f85704380c79a7994af2d1167628da4b7669"
 
-  depends_on "python@3.9"
+  depends_on "python@3.12"
   depends_on "rust"
 
   resource "fastapi" do
