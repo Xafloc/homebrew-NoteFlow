@@ -46,8 +46,12 @@ pip install noteflow
 #### Using Homebrew (macOS/Linux)
 ```bash
 brew tap Xafloc/noteflow
-brew install noteflow
+brew install noteflow-py
 ```
+
+The formula is named `noteflow-py` so it can coexist with the Go version
+(`brew install xafloc/noteflow-go/noteflow` installs as `noteflow-go`).
+Both binaries can live side-by-side on the same machine.
 
 ### Running Noteflow
 

@@ -1,7 +1,7 @@
-class Noteflow < Formula
+class NoteflowPy < Formula
   include Language::Python::Virtualenv
 
-  desc "NoteFlow is a lightweight, Markdown-based note-taking application with task management capabilities."
+  desc "Python NoteFlow — Markdown-based note-taking with tasks, AI assist, and cross-folder sync."
   homepage "https://github.com/Xafloc/NoteFlow"
   url "https://github.com/Xafloc/NoteFlow/archive/refs/tags/v0.4.0.tar.gz"
   sha256 "4694e589dc5c7b21abc7f0390de6f85704380c79a7994af2d1167628da4b7669"
@@ -131,6 +131,21 @@ class Noteflow < Formula
 
   def install
     virtualenv_install_with_resources
+  end
+
+  def caveats
+    <<~EOS
+      Installs the `noteflow` binary (Python flavor). Can coexist with the
+      Go version from xafloc/noteflow-go, which installs as `noteflow-go`.
+
+      Per-user config lives at:
+        ~/.config/noteflow-py/        (Linux)
+        ~/Library/Application Support/noteflow-py/   (macOS)
+
+      To set up AI assist or change themes, run `noteflow` in any folder
+      and click the right-edge tabs. See README at:
+        https://github.com/Xafloc/NoteFlow
+    EOS
   end
 
   test do
