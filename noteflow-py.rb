@@ -4,7 +4,7 @@ class NoteflowPy < Formula
   desc "Python NoteFlow — Markdown-based note-taking with tasks, AI assist, and cross-folder sync."
   homepage "https://github.com/Xafloc/NoteFlow"
   url "https://github.com/Xafloc/NoteFlow/archive/refs/tags/v0.6.0.tar.gz"
-  sha256 "89f51b4040f5aeb2e890b422924192ac53b2e16f49a7fda0963ae048209ea494"
+  sha256 "43cfd49ed497ec25faeeea08327cbd6b534c63ef5ee9aa3be9d439521e97b894"
 
   depends_on "python@3.12"
   depends_on "rust"
