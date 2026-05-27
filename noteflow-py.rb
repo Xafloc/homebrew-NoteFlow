@@ -3,8 +3,8 @@ class NoteflowPy < Formula
 
   desc "Python NoteFlow — Markdown-based note-taking with tasks, AI assist, and cross-folder sync."
   homepage "https://github.com/Xafloc/NoteFlow"
-  url "https://github.com/Xafloc/NoteFlow/archive/refs/tags/v0.7.1.tar.gz"
-  sha256 "88c6c3d1d77b8ce1a62e3c32b941dace05671ade218860e78e0f973de3ee1693"
+  url "https://github.com/Xafloc/NoteFlow/archive/refs/tags/v0.7.2.tar.gz"
+  sha256 "8e234fc2996a7a64bb12982e100490a04230d99e352a70f6ae309a5f04fb946d"
 
   depends_on "python@3.12"
   depends_on "rust"
@@ -169,6 +169,6 @@ class NoteflowPy < Formula
   end
 
   test do
-    assert_match "0.7.1", shell_output("#{bin}/noteflow --version")
+    assert_match "0.7.2", shell_output("#{bin}/noteflow --version")
   end
 end
