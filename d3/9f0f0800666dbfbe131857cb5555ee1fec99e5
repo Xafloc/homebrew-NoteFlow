@@ -1,0 +1,19 @@
+noteflow-py.rb
+  s_4fa49b1f0d4a12::t_d1d8e783e11880 6-7,172
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d39f0f0800666dbfbe131857cb5555ee1fec99e5",
+  "prompts": {},
+  "sessions": {
+    "s_4fa49b1f0d4a12": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "90d5b8d7-0e84-43f0-83af-3233d8ca4f98",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Darren <darren@aims.to>"
+    }
+  }
+}
